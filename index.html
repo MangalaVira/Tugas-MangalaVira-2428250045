@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <main class="main1">
+    <h1 class="judul"> Inventaris Barang</h1>
+    <form class="dis-form">
+        <input type="text" id="nama_barang" placeholder="Masukkan Nama Barang" required>
+        <br>
+        <input type="number" id="jumlah_barang" placeholder="Masukkan Jumlah Barang" required>
+        <br>
+        <select name="kategori" id="kategori">
+        <option value="elektronik">Elektronik</option>
+        <option value="furnitur5e">Furniture</option>
+        <option value="alatulis">Alat Tulis</option>
+        <option value="peralatan">Peralatan</option>
+        </select>
+        <br></br>
+     <button type="submit" id="btn1"> Tambahkan Barang</button>
+    </form>
+    <br>
+    <div>
+        <table class="tabel1" border="1">
+            <thead>
+                <tr>
+                    <th>Nama Barang</th>
+                    <th>Jumlah</th>
+                    <th>Kategori</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Komputer</td><td>10</td><td>Elektronik</td></tr>
+            <tr><td>Kursi</td><td>5</td><td>Furniture</td></tr>
+            <tr><td>Kalkulator</td><td>8</td><td>Elektronik</td></tr>
+            <tr><td>Pena</td><td>12</td><td>Alat Tulis</td></tr>
+            <tr><td>Sapu</td><td>3</td><td>Alat Kebersihan</td></tr>
+            <tr><td>Monitor</td><td>15</td><td>Elektronik</td></tr>
+            <tr><td>Pensil</td><td>7</td><td>Alat Tulis</td></tr>
+            <tr><td>Pel</td><td>9</td><td>Alat Kebersihan</td></tr>
+            <tr><td>Meja</td><td>20</td><td>Furniture</td></tr>
+            <tr><td>Mouse</td><td>6</td><td>Elektronik</td></tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+
+</body>
+</html>
